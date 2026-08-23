@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #F3D7B7;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 800px;
+    padding: 20px 50px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+.nav-link ul{
+    display: flex;
+    list-style-type: none;
+}
+.header-text-p{
+    width: 420px;
+    padding: 30px 0px 40px 0px;
+}
+.header-text-h1{
+    width: 447px;
+    height: 150px;
+}
+.crc{
+    background: #0A775F;
+    border: 1px solid black;
+    border-radius: 30px;
+    border: none;
+    width: 193px;
+    height: 51px;
+    color: white;
+}
+.header-text{
+    padding: 100px 450px 200px 50px;
+}
+.header-logo{
+   position: absolute; 
+   top: 160px;
+   left: 815px;
+}
+.header-icon{
+    position: absolute;
+    top: 50px;
+    left: 710px;
+    animation: move 4s infinite;
+}
+.header-text-p2{
+    width: 260px;
+}
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F3D7B7;
+    padding: 40px 80px;
+}
+.footer-logo img{
+    height: 30px;
+}
+.nav-link2 ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icon img{
+    width: 20px;
+    cursor: pointer;
+}
+@keyframes move {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}
+
+.menu-btn{
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+main{
+    background: #F8F8F2;
+}
+
+.main-h1{
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.main-danch{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-GranEspresso{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-PICCOLLO{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-PLANALTO{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-danch-text{
+    width: 300px;
+    margin-top: 100px;
+}
+
+.Oucommitment{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 0px;
+}
+
+.Oucommitment-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 630px;
+    margin-top: 70px;
+}
+
+.okak{
+    font-size: 40px;
+}
+
+.Your{
+    background: #C99B67;
+    color: white;
+}
+
+.unc{
+    padding: 120px 400px 80px 30px;
+}
+
+.Your-p{
+    margin-top: 30px;
+}
+
+.okaks{
+    font-size: 40px;
+    width: 400px;
+}
+
+.Your-img{
+    position: absolute;
+    top: 1200px;
+    left: 920px;
+}
